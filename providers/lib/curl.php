@@ -13,7 +13,7 @@ class Curl
         CURLOPT_MAXREDIRS      => 5,
         CURLINFO_HEADER_OUT    => true,
         CURLOPT_ENCODING       => 'identity',
-        CURLOPT_USERAGENT      => 'ThemeDev, WP Theme & Plugin',
+        CURLOPT_USERAGENT      => 'WP Theme & Plugin',
     ];
 
     protected $requestArguments = [];
